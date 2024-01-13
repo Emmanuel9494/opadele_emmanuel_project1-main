@@ -1,0 +1,3 @@
+This is where my CSS files will be.
+I will be using this files to style my HTML
+CSS stands for Cascading Style Sheets

@@ -1,0 +1,1 @@
+This is where my Java Scripts will be as js stands for Java Scripts
