@@ -30,16 +30,19 @@ article {
     grid-column: 1/-1;
     line-height: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.685);
-    margin-top: 5qqpx;
+    margin-top: 20px;
     margin-bottom: 30px;
-    text-align: center;
-    justify-items: left;
+    
    
 }
 
+.article-style{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 img {
-    margin-top: 20px;
+    margin-top: 2px;
     margin-bottom: 30px;
 }
 
@@ -50,8 +53,140 @@ span {
     font-style: italic;
 }
  
-.article-style{
-    padding-left: 20px;
-    padding-right: 20px;
-
+.top-q{
+    font-size: 20px;
 }
+
+.ball{
+    column-count: 2;
+    column-gap: 16px;
+    text-align: left;
+}
+
+.ball-q{
+    color: #CD4834;
+}
+
+.ball::first-letter{
+    width: 600px;
+    height: 25px;
+    font-size: 35px;
+    color: azure;
+    background-color: #CD4834;
+    border-radius: 2fasd0;
+    font-family: "Montserrat Alternates", sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.726);
+}
+
+.passion-article{
+    background-color: #410550;
+    color: white;
+}
+
+
+.sporty{
+    animation: blur 2s infinite;
+    font-size: x-large;
+}
+
+@keyframes blur {
+    0% { text-shadow: 0 0 0 transparent; }
+    50% { text-shadow: 10px 0 20px rgb(0, 0, 0); }
+    100% { text-shadow: 0 0 0 transparent; }
+  }
+
+
+
+  .article-style .lbo{
+    letter-spacing: 5px;
+    font-weight: bold;
+    padding: 10px;
+  }
+.lemon{
+    background-color: #000000;
+    color: rgb(86, 247, 86);
+    text-transform: uppercase;
+    border-radius: 30%;
+    font-size: xx-small;
+    padding: 7px;
+}
+
+.orange{
+    background-color: #000000;
+    color: rgb(255, 107, 53);
+    text-transform: uppercase;
+    border-radius: 30%;
+    font-size: xx-small;
+    padding: 7px;
+}
+
+
+.berry{
+    background-color: #000000;
+    color: rgb(233, 4, 233);
+    text-transform: uppercase;
+    border-radius: 30%;
+    font-size: xx-small;
+    padding: 7px;
+}
+
+
+
+
+
+
+.letter-box{
+    margin-left: 10px;
+    letter-spacing: 5px;
+}
+.article-style .letter-box .letter:nth-child(odd) {
+    color:rgb(233, 233, 233);
+    background-color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .article-style .letter-box .letter:nth-child(even) {
+    color:#000000;
+    font-size: 30px;
+  }
+  
+
+  .flavour-q{
+    background-color:black;
+   font-weight: bold;
+   letter-spacing: 15px;
+  }
+
+  .two-flavour{
+    line-height: 35px;
+  }
+
+.flavour1{
+    background-color: #f88000b9;
+    color: #000000;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   
+}
+
+
+.flavour2{
+    background-color: #fabd16;
+    color: white;
+    padding-left: 12px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+  .milk-q1{
+    
+    text-align: left;
+  }
+  .milk-q2{
+    
+    font-style: italic;
+    text-align: right;
+  }
+
