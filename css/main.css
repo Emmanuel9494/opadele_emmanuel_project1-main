@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+body{
+    font-family: "karla", sans-serif;
+    font-style: normal;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    background: #efefef;
+    border-radius: 10px;
+}
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-column-gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+    line-height: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.685);
+    margin-top: 5qqpx;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-items: left;
+   
+}
+
+
+img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+span {
+    color: #f58300;
+    padding: 5px 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: italic;
+}
+ 
+.article-style{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
